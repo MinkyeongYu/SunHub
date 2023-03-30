@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Dovemayo_gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.swal2-popup {
+    transition: 0.1s;
+    font-size: 14px !important;
+    font-weight: 20px;
+    font-family: 'Dovemayo_gothic';
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    color: #F2EAF0;
+    white-space: normal;
+}
+
+html {
+    font-family: 'TTTtangsbudaejjigaeB';
+    /* 1rem = 10px로 설정. (원래 1rem = 16px이 기본임) */
+    font-size: 10px;
+}
+
+body {
+    background-image: url("https://wallpaper.dog/large/11088.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 2100px;
+}
+
+
+.btn {
+    font-family: inherit;
+    padding: 5px 6px;
+    border-radius: 10px;
+    background-color: rgb(249, 237, 241);
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.dayList {
+    margin: 2% 1% 2% ;
+    font-size: 35px;
+    /* display: flex;
+    flex-direction: column;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */ 
+}
+.year { 
+    display: block;
+    /* color:rgb(249, 237, 241); */
+}
+
+.Jan {
+    width: 500px;
+    font-size: 25px;
+    padding: 50px;
+    /* margin-right: 10px; */
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+.Feb {
+    width: 500px;
+    font-size: 25px;
+    padding: 50px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+.March {
+    width: 500px;
+    font-size: 25px;
+    padding: 50px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+.Apr {
+    width: 500px;
+    font-size: 25px;
+    padding: 50px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+.firstEl {
+    display: flex;
+    /* margin: 0 15%; */
+    flex-basis: 0%;
+    margin: 0 auto;
+}
+.secondEl {
+    display: flex;
+    flex-basis: 0%;
+}
+
+.monthName {
+    width: 16px;
+    background-color: rgb(180, 166, 251);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 45%;
+    box-shadow: 15px 1px rgb(203, 193, 254);
+}
+
+.container {
+    padding: 5px 5px;
+    border: 6px solid rgb(180, 166, 251);
+    border-radius: 20px;
+    box-shadow: 5px 4px rgb(130, 119, 181);
+}
+
+.Jan .firstWeek {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.Jan .firstWeek .btn {
+    /* margin-left: 3px; */
+    padding: 5px 11px;
+}
+.Jan .secondWeek .short {
+    padding: 5px 11px;
+}
+
+.secondWeek {
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+}
+.thirdWeek {
+    display: flex;
+    justify-content: space-between;
+}
+.fourthWeek {
+    display: flex;
+    justify-content: space-between;
+}
+.fifthWeek {
+    display: flex;
+}
+
+.Feb .firstWeek {
+    display: flex;
+    justify-content: right;
+}
+.Feb .firstWeek .btn {
+    /* margin-left: 3px; */
+    padding: 5px 11px;
+}
+.Feb .secondWeek .short {
+    /* margin-left: 4px; */
+    padding: 5px 11px;
+}
+
+.March .firstWeek {
+    display: flex;
+    justify-content: right;
+}
+.March .firstWeek .btn {
+    margin-left: 1px;
+    padding: 5px 11px;
+}
+.March .secondWeek .short {
+    padding: 5px 11px;
+    
+}
+
+.Apr .firstWeek {
+    display: flex;
+    justify-content: right;
+}
+.Apr .short {
+    padding: 5px 11px;
+}
+
+
+
+.prevBtn {
+    font-size: 20px;
+    display: flex;
+    color: rgb(13, 2, 31);
+    padding: 5px 5px;
+    border: 3px solid rgb(13, 2, 31);
+    border-radius: 10px;
+    width: 60px;
+    background-color: thistle;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}

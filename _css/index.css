@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+html {
+    font-family: 'TTTtangsbudaejjigaeB';
+    /* 1rem = 10px로 설정. (원래 1rem = 16px이 기본임) */
+    font-size: 10px;
+}
+
+body {
+    background-image: url("../pic/index.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 800px;
+    background-color: rgb(19, 28, 39);
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-size: 60px;
+    margin-bottom: 15px;
+    color:darkred
+}
+
+.subTitle {
+    font-size: 30px;
+    color: rgb(64, 56, 179);
+}
+
+.button {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.anniversary {
+    color: rgb(150, 120, 81);
+    font-size: 18px;
+    margin-bottom: 2%
+}
+.anniversary:active {
+    color:indianred
+}
+
+#inputField {
+    border: 2px solid #dddddd;
+    line-height: 1.45;
+    letter-spacing: -0.04rem;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    font-family: inherit;
+    letter-spacing: 5px;
+    text-align: center;
+}

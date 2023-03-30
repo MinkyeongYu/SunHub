@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Dovemayo_gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: 'TTTtangsbudaejjigaeB';
+    /* 1rem = 10px로 설정. (원래 1rem = 16px이 기본임) */
+    font-size: 10px;
+}
+
+body {
+    background-image: url("https://wallpaper.dog/large/11088.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 2000px;
+}
+
+.swal2-popup {
+    transition: 0.1s;
+    font-size: 12px !important;
+    font-weight: 20px;
+    font-family: 'Dovemayo_gothic';
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    color: #F2EAF0;
+    white-space: normal;
+}
+
+.dayList {
+    margin: 2% 2%;
+    font-size: 35px;
+}
+
+.btn {
+    font-family: inherit;
+    padding: 5px 6px;
+    border-radius: 10px;
+    background-color: rgb(249, 237, 241);
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.monthName {
+    width: 16px;
+    background-color: rgb(180, 166, 251);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 45%;
+    box-shadow: 15px 1px rgb(203, 193, 254);
+}
+.firstEl {
+    margin-top: 5%;
+    display: flex;
+}
+
+.Nov {
+    width: 500px;
+    font-size: 25px;
+    padding: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+.Dec {
+    width: 500px;
+    font-size: 25px;
+    padding: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.monthName {
+    width: 16px;
+    background-color: rgb(180, 166, 251);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 45%;
+    box-shadow: 15px 1px rgb(203, 193, 254);
+}
+.container {
+    padding: 10px 10px;
+    border: 6px solid rgb(180, 166, 251);
+    border-radius: 20px;
+    box-shadow: 5px 4px rgb(130, 119, 181);
+}
+
+.Nov .firstWeek {
+    display: flex;
+    justify-content: right;
+}
+.Nov .short {
+    padding: 5px 10px;
+}
+.Nov .firstWeek .btn {
+    margin-left: 4px;
+}
+.Nov .secondWeek {
+    display: flex;
+    justify-content: space-around;
+}
+.secondWeek {
+    display: flex;
+    justify-content: space-between;
+}
+.thirdWeek {
+    display: flex;
+    justify-content: space-between;
+}
+.fourthWeek {
+    display: flex;
+    justify-content: space-between;
+}
+.fifthWeek {
+    display: flex;
+}
+
+.Dec .firstWeek {
+    display: flex;
+    justify-content: right;
+}
+.Dec .short {
+    padding: 5px 11px;
+}
+.Dec .firstWeek .btn {
+    margin-left: 2px;
+}
+
+.nextBtn {
+    font-size: 20px;
+    display: flex;
+    color: rgb(13, 2, 31);
+    padding: 5px 5px;
+    border: 3px solid rgb(13, 2, 31);
+    border-radius: 10px;
+    
+    width: 60px;
+    background-color: thistle;
+    text-decoration: none;
+}
+.mainBtn {
+    font-size: 20px;
+    display: flex;
+    color: rgb(13, 2, 31);
+    padding: 5px 5px;
+    border: 3px solid rgb(13, 2, 31);
+    border-radius: 10px;
+    
+    width: 60px;
+    background-color: thistle;
+    text-decoration: none;
+    
+}
+.linkBtn {
+    display: flex;
+    margin: 7% auto;
+    justify-content: center;
+}

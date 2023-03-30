@@ -37,6 +37,7 @@ body {
 .subTitle {
     font-size: 30px;
     color: rgb(64, 56, 179);
+    margin: 0 auto;
 }
 
 .button {

@@ -5,7 +5,7 @@ const novEls = document.querySelectorAll('.november')
 const decEls = document.querySelectorAll('.december')
 const janEls = document.querySelectorAll('.january')
 var mData = document.querySelector(".mData")
-
+var blankEls = document.querySelectorAll('.disabled')
 
 /*
 novEls.forEach(function(novEl, index) {
@@ -72,3 +72,13 @@ window.onload = function () {
         }
     })
 }
+
+// blankEls.forEach(function (blankEl, index) {
+//     blankEl.onclick = function () {
+//         var button = document.createElement('input');
+//         button.type = 'button';
+//         button.id = 'submit';
+//         button.value = 'Submit';
+//         button.className = 'ableBtn';
+//     }
+// })
